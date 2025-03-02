@@ -1,0 +1,168 @@
+@charset 'UTF-8';
+@font-face {
+    font-family: 'love';
+    src: url(Fontes/Lovely\ Valentine\ Script.otf) format(opentype), url(Fontes/Lovely\ Valentine\ Script.ttf) format(TrueType);
+}
+@font-face {
+    font-family: 'love1';
+    src: url(Fontes/Lovely\ Valentine\ Sans.otf) format(opentype), url(Fontes/Lovely\ Valentine\ Sans.ttf) format(TrueType);
+}
+@font-face {
+    font-family: texto;
+    src: url(fontes/Lato/Lato-Regular.ttf) format(TrueType);
+}
+@font-face {
+    font-family: paragrafo;
+    src: url(fontes/Lato/Lato-Regular.ttf) format(TrueType);
+}
+@font-face {
+    font-family: nome;
+    src: url(fontes/Great_Vibes/GreatVibes-Regular.ttf);
+}
+@font-face {
+    font-family: textdata;
+    src: url(fontes/Nunito/static/Nunito-ExtraLight.ttf) format(TrueType);
+}
+@font-face {
+    font-family: latobold;
+    src: url(fontes/Lato/Lato-Bold.ttf) format(TrueType);
+}
+body {
+    background-image: url(imagens/fundo.jpg);
+    height: 1px;
+    margin: 120px;
+    
+
+}
+.bordasuperior {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+}
+ .container {
+    position: relative;
+    max-width: 400px;
+    height: 400px;
+    margin: auto;
+ }   
+ .background-img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Imagem da frente */
+    
+
+}
+.frente {
+    position: absolute;
+  width: 90%;
+  height: auto;
+  top: 36%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  
+
+}
+.textodata {
+    font-family: textdata, Arial, Helvetica, sans-serif;
+    height: 30px;
+    margin-bottom: 5px;
+    
+}
+.fotodata {
+    margin-bottom: 25px
+}
+header {
+    color: #9A8478;
+    font-size: 1em;
+    font-family: nome, sans-serif;
+    margin: auto;
+    text-align: center;
+    
+}
+header > nav > p {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.nometitulo{
+    font-family: nome, Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+.nomes {
+    font-family: nome, Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    margin-bottom: 1px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    text-align: center;
+    height: 30px;
+    margin-bottom: 5px;
+}
+.paragrafo {
+    font-family: paragrafo, Arial, Helvetica, sans-serif;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: center;
+}
+.latobold {
+    font-family: latobold, Arial, Helvetica, sans-serif;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+nav {
+    display: inline;
+    font-family: paragrafo, Arial, Helvetica, sans-serif;
+    padding: 3px;
+    font-style: normal;
+    font: #9A8478;
+    
+
+}
+nav > a {
+    font-family: latobold, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-right: 30px;
+    text-align: center;
+    font: #9A8478;
+    font-size: 25px;
+   
+}
+nav > a:hover {
+    font-family: latobold, Arial, Helvetica, sans-serif;
+    font: #9A8478;
+    background-color: #ada29c;
+    transition: 0.5s;
+    padding: 5px;
+    border-radius: 5px;
+}
+nav > a::before {
+    font: #ff5900;
+
+}
+main {
+    color: #9A8478;
+    font-size: 1em;
+    font-family: nome, sans-serif;
+    margin: auto;
+    text-align: center;
+}
+ 
