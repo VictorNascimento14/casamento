@@ -29,6 +29,7 @@
 }
 body {
     background-image: url(imagens/fundo.jpg);
+    max-width: 300px;
     height: 1px;
     margin: 120px;
     
