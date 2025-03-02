@@ -29,7 +29,7 @@
 }
 body {
     background-image: url(imagens/fundo.jpg);
-    max-width: 600px;
+    max-width: 500px;
     max-height: 10px;
     margin: auto;
     padding: 64px;
