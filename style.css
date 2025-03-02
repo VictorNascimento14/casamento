@@ -29,9 +29,10 @@
 }
 body {
     background-image: url(imagens/fundo.jpg);
-    max-width: 300px;
-    height: 1px;
-    margin: 120px;
+    max-width: 600px;
+    max-height: 10px;
+    margin: auto;
+    padding: 64px;
     
 
 }
@@ -47,11 +48,20 @@ body {
     height: 400px;
     margin: auto;
  }   
+ .container1 {
+    display: flex;
+  gap: 10px;
+  margin: auto;
+ }
+ .container1 img {
+    max-width: 600px; /* Ajuste o tamanho conforme necessário */
+  height: auto;
+ }
  .background-img {
     position: absolute;
     width: 100%;
     height: auto;
-    top: 50%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2; /* Imagem da frente */
@@ -62,7 +72,7 @@ body {
     position: absolute;
   width: 90%;
   height: auto;
-  top: 36%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -135,6 +145,7 @@ nav {
     padding: 3px;
     font-style: normal;
     font: #9A8478;
+    margin: auto;
     
 
 }
