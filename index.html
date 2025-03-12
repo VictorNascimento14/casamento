@@ -97,15 +97,33 @@
             <h2 class="nomes">Confirme sua presença</h2>
                 <div class="fotodata"><img src="imagens/arranjo-titulo.png" alt="" ></div>
 
-            <form action="">
+            <form action="#" autocomplete="off" method="get">
 
-            <p class="textodata">Digite seu nome: <input type="text" name="nome" id="nome"></p>
+            <fieldset>
+                <legend>Confirme sua presença!</legend>
 
-            <p class="textodata">Digite seu sobrenome: <input type="text" name="sobrenome" id="sobrenome"></p>
+                <p class="formulario">
+                    <label for="inome">Digite seu nome:</label> <br>
+                     <input type="text" name="nome" id="inome" placeholder="nome" required></p> 
 
-            <input type="submit" value="Confirmar">
+                <p class="formulario">
+                    <label for="isobrenome">Digite seu sobrenome: </label> <br>
+                    <input type="text" name="sobrenome" id="isobrenome" placeholder="sobrenome" required></p>
+
+                <p class="formulario">
+                    <label for="imsg">Digite uma mensagem para os noivos!</label> <br>
+                    <textarea name="msg" id="imsg" cols="30" rows="5" placeholder="Escreva suas felicitações!"></textarea>
+                </p>
+
+            </fieldset>
+
+            <p>
+                <input type="submit" value="Confirmar">
+                <input type="reset" value="Limpar">
+            </p>
             </form>
-           kkkkkkjjjkikkwwtfdddfsdfsdfsdddddd 
-
     </main>
+    <footer>
+        <p>Site Criado por Victor nascimento</p>
+    </footer>
 </html>
