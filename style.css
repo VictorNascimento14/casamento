@@ -33,7 +33,7 @@
 }
 body {
     background-image: url(imagens/fundo.jpg);
-    max-width: 600px;
+    max-width: 500px;
     max-height: 500px;
     margin: auto;
     padding: 49px;
@@ -237,4 +237,27 @@ fieldset {
     font-family: paragrafo;
     text-align: left;
     padding: 17px;
+}
+
+li {
+    text-align: start;
+}
+
+.presente {
+    font-family: latobold, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-right: 7px;
+    text-align: center;
+    font: #9A8478;
+    
+}
+
+.presente:hover {
+    font-family: latobold, Arial, Helvetica, sans-serif;
+    font: #9A8478;
+    background-color: #ada29c;
+    transition: 0.7s;
+    padding: 5px;
+    border-radius: 5px;
+    gap: 10px;
 }
