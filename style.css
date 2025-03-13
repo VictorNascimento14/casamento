@@ -256,8 +256,16 @@ li {
     font-family: latobold, Arial, Helvetica, sans-serif;
     font: #9A8478;
     background-color: #ada29c;
-    transition: 0.7s;
+    transition: 0.7s ;
     padding: 5px;
     border-radius: 5px;
     gap: 10px;
 }
+
+.presente::after {
+    font-family: latobold, Arial, Helvetica, sans-serif;
+    font: #9A8478;
+    background-color: #ada29c;
+    
+}
+
