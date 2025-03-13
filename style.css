@@ -170,10 +170,15 @@ nav > a:hover {
     font-family: latobold, Arial, Helvetica, sans-serif;
     font: #9A8478;
     background-color: #ada29c;
-    transition: 0.7s;
+    transition: 0.7s, border 0.2s;
+    border: 1px solid rgba(0, 0, 0, 0.534);
     padding: 5px;
     border-radius: 5px;
 }
+nav > a::after {
+    font: #9A8478;
+}
+
 nav > a::before {
     font: #ff5900;
 
@@ -256,10 +261,12 @@ li {
     font-family: latobold, Arial, Helvetica, sans-serif;
     font: #9A8478;
     background-color: #ada29c;
-    transition: 0.7s ;
+    transition: 0.7s, border 0.2s;
     padding: 5px;
     border-radius: 5px;
     gap: 10px;
+    border: 1px solid rgb(0, 0, 0);
+
 }
 
 .presente::after {
